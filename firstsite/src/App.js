@@ -4,6 +4,8 @@ import './App.css';
 import Hero from './Hero';
 import Want from './Want';
 import Underhero from './Underhero';
+import Clode from './Clode';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
     <Hero/>
     <Want/>
     <Underhero/>
+    <Clode/>
   </div>
   );
 }
