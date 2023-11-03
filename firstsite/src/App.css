@@ -1,0 +1,212 @@
+
+#wrapper{
+  display:flex;
+  width: 100%;
+  height: 55px;
+  margin: 0px auto;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+#photo{
+display: flex;
+flex-direction: none;
+margin: auto 20px;
+}
+#n1{
+  background-color: #FBB900;
+  width: 32px;
+  height: 32px;
+  border-radius: 250px;
+margin: auto 7px;
+}
+#n2{
+  background-color: #FBB900;
+  width: 32px;
+  height: 32px;
+  border-radius: 250px;
+  margin: auto 7px;
+}
+#n3{
+  background-color: #FBB900;
+  width: 32px;
+  height: 32px;
+  border-radius: 250px;
+  margin: auto 7px;
+}
+#alln{
+  display: flex;
+  margin-left: auto;
+  margin: 0px 40px;
+}
+#kryjki{
+  display: flex;
+  margin: auto 0px;
+}
+#button1{
+  background-color: #FBB900;
+  width: 180px;
+  height: 32px;
+  border-radius: 250px; 
+  border: none;
+  margin: auto 20px;
+  text-decoration: none;
+  padding: 6px 7px 6px 7px;
+}
+#text{
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+#button1:hover{
+  background-color:  #eeaf02;
+  animation-duration: 0.3s;
+  animation-name: hover;
+}
+@keyframes hover {
+  from{
+    background-color: #FBB900;
+  }
+  to{
+    background-color: #eeaf02;
+  }
+}
+.btn-primary{
+  background-color: #FBB900;
+  color: aliceblue;
+  width: 240px;
+  height: 40px;
+  border-radius: 200px;
+  border: none;
+  --bs-btn-active-bg: #c59001;
+}
+.btn-primary:hover{
+background-color: #eeaf02;
+}
+.btn-primary:active {
+  background-color: #eeaf02;
+}
+#imgvg{
+  width: 100%;
+}
+#text1{
+display: block;
+position: absolute;
+margin: 250px 500px;
+font-size: 20px;
+font-weight: bold;
+}
+#photo2{
+  position: absolute;
+  z-index: -1;
+}
+#th1{
+  display: flex;
+  margin: 0px auto;
+} 
+
+#th1 h1{
+  margin: 5px 0px auto 60px;
+  font-size: 26px;
+  font-weight: bold;
+} 
+#wantback{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  background-color: #FBB900;
+  margin-top: 600px;
+  z-index: -1;
+}
+#osnova{
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  margin: 200px 300px 0px 300px;
+}
+#dop{
+  text-align: center;
+  font-size: 28px;
+  margin: 30px 300px 0px 300px;
+  font-weight: 300;
+}
+#dop1{
+  text-align: center;
+  font-size: 28px;
+  margin: 10px 300px 0px 300px;
+  font-weight: 300;
+}
+.btn-secondary{
+  background-color: white;
+  width: 350px;
+  height: 60px;
+  border-radius: 250px; 
+  border: none;
+  margin: auto 20px;
+  text-decoration: none;
+  padding: 6px 7px 6px 7px;
+  margin: 60px auto auto auto;
+}
+.btn-secondary{
+  background-color: #65697C;
+  color: aliceblue;
+  border: none;
+  --bs-btn-active-bg: #98ce00;
+}
+.btn-secondary:hover{
+  background-color: #98ce00;
+}
+#strelka{
+  position: absolute;
+  transform: scale(0.5) translateX(-280px);
+  fill: white;
+}
+#underhero{
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  margin: 1600px 0px;
+  padding: 0px 48px;
+}
+#reading{
+  font-size: 38px;
+  text-align: center;
+  color: #FDD76F;
+}
+#reading1{
+  background-color: rgb(243,241,235);
+  border-radius: 20px; 
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  width: 100%;
+  padding: 40px;
+}
+#podtext{
+  background-color: rgb(243,241,235);
+  border-radius: 20px; 
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  width: 450px;
+  padding: 40px;
+}
+#podtext1{
+  background-color: rgb(243,241,235);
+  border-radius: 20px; 
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  width: 450px;
+  padding: 40px;
+}
+#reading2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
