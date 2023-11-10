@@ -5,16 +5,18 @@ import Hero from './Hero';
 import Want from './Want';
 import Underhero from './Underhero';
 import Clode from './Clode';
+import Cards from './Cards';
 
 
 function App() {
   return (
-  <div>
+  <div id="all">
     <Navbar/>
     <Hero/>
     <Want/>
     <Underhero/>
     <Clode/>
+    <Cards/>
   </div>
   );
 }

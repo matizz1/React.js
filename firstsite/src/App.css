@@ -1,4 +1,8 @@
 
+#all{
+  display: flex;
+  flex-direction: column;
+}
 #wrapper{
   display:flex;
   width: 100%;
@@ -89,15 +93,24 @@ background-color: #eeaf02;
 #imgvg{
   width: 100%;
 }
+#hero{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 #text1{
 display: block;
-position: absolute;
-margin: 250px 500px;
 font-size: 20px;
 font-weight: bold;
+margin: 50px 0px 0px 50px;
 }
 #photo2{
   position: absolute;
+  height: 100%;
+  width: 100%;
   z-index: -1;
 }
 #th1{
@@ -116,9 +129,7 @@ font-weight: bold;
   align-items:center;
   width: 100%;
   height: 800px;
-  position: absolute;
   background-color: #FBB900;
-  margin-top: 600px;
   z-index: -1;
 }
 #osnova{
@@ -225,4 +236,29 @@ font-weight: bold;
   font-size: 38px;
   text-align: center;
   color: #FDD76F;
+}
+#card1{
+  height: 200px;
+  width: 250px;
+  background-color: #98ce00;
+  margin: 0px 25px;
+}
+#card2{
+  height: 200px;
+  width: 250px;
+  background-color: #98ce00;
+  margin: 0px 25px;
+  }
+#card3{
+  margin: 0px 25px;
+  height: 200px;
+  width: 250px;
+  background-color: #98ce00;
+}
+#cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  filter: brightness(80%);
 }
