@@ -6,6 +6,7 @@ import Want from './Want';
 import Underhero from './Underhero';
 import Clode from './Clode';
 import Cards from './Cards';
+import Slaudi from './Slaudi';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <Underhero/>
     <Clode/>
     <Cards/>
+    <Slaudi/>
+
   </div>
   );
 }
