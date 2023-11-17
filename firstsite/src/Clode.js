@@ -16,9 +16,9 @@ const Clode = () => {
             <div id="card1">
               <div id="qwcard1">
                 <p>
-                  Дошкольники и младшая школа
+                  Дошкольники и <br/> младшая школа
                 </p> 
-                  <Button variant="success">Success</Button>{' '}
+                  <Button variant="success">подробнее</Button>{' '}
               </div>
                 <img id="imgvg" src={TTTT2849} alt=''/> 
             </div>
@@ -27,16 +27,16 @@ const Clode = () => {
                 <p>
                  Средняя школа
                 </p>
-                  <Button variant="success">Success</Button>{' '}
+                  <Button variant="success">подробнее</Button>{' '}
               </div>
                 <img id="imgvg" src={jopa} alt=''/> 
             </div>
             <div id="card3">
               <div id="qwcard3">
                   <p>
-                   Старшая школа и взрослые
+                   Старшая школа <br/> и взрослые
                   </p>
-                    <Button variant="success">Success</Button>{' '}
+                    <Button variant="success">подробнее</Button>{' '}
               </div>
                 <img id="imgvg" src={nejopa} alt=''/>
             </div>

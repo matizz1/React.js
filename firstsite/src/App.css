@@ -266,9 +266,11 @@ margin: 50px 0px 0px 50px;
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   z-index: 100;
+  text-align: center;
 }
 #qwcard2{
   height: 200px;
@@ -276,6 +278,7 @@ margin: 50px 0px 0px 50px;
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   z-index: 100;
@@ -286,16 +289,24 @@ margin: 50px 0px 0px 50px;
   position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   z-index: 100;
+  text-align: center;
 }
 .btn-success{
-  background-color: #65697C;
-  color: aliceblue;
-  border: none;
-  --bs-btn-active-bg: #98ce00;
+  border: 1px solid white;
+  --bs-btn-active-bg: white;
+  --bs-btn-bg: none;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-color: #3e3e3e;
+  --bs-btn-active-border-color: white;
+  --bs-btn-active-color: #3e3e3e;
   width: 100px;
   height: 32px;
   border-radius: 200px;
+  padding: 2px 3px 3px 2px;
+  font-size: 14px;
+  
 }
