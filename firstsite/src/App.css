@@ -240,25 +240,62 @@ margin: 50px 0px 0px 50px;
 #card1{
   height: 200px;
   width: 250px;
-  background-color: #98ce00;
-  margin: 0px 25px;
 }
 #card2{
   height: 200px;
   width: 250px;
-  background-color: #98ce00;
-  margin: 0px 25px;
   }
 #card3{
-  margin: 0px 25px;
   height: 200px;
   width: 250px;
-  background-color: #98ce00;
 }
 #cards{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 60px;
-  filter: brightness(80%);
+  width: 100%;
+  padding: 0px 150px;
+}
+#imgvg{
+  filter: brightness(40%);
+}
+#qwcard1{
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  z-index: 100;
+}
+#qwcard2{
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  z-index: 100;
+}
+#qwcard3{
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  z-index: 100;
+}
+.btn-success{
+  background-color: #65697C;
+  color: aliceblue;
+  border: none;
+  --bs-btn-active-bg: #98ce00;
+  width: 100px;
+  height: 32px;
+  border-radius: 200px;
 }
