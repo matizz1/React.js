@@ -20,7 +20,7 @@ const Clode = () => {
                 </p> 
                   <Button variant="success">подробнее</Button>{' '}
               </div>
-                <img id="imgvg" src={TTTT2849} alt=''/> 
+                <img id="imgvg1" src={TTTT2849} alt=''/> 
             </div>
             <div id="card2">
               <div id="qwcard2">
@@ -29,7 +29,7 @@ const Clode = () => {
                 </p>
                   <Button variant="success">подробнее</Button>{' '}
               </div>
-                <img id="imgvg" src={jopa} alt=''/> 
+                <img id="imgvg1" src={jopa} alt=''/> 
             </div>
             <div id="card3">
               <div id="qwcard3">
@@ -38,7 +38,7 @@ const Clode = () => {
                   </p>
                     <Button variant="success">подробнее</Button>{' '}
               </div>
-                <img id="imgvg" src={nejopa} alt=''/>
+                <img id="imgvg1" src={nejopa} alt=''/>
             </div>
 
           
