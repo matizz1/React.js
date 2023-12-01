@@ -11,11 +11,13 @@
   position: fixed;
   background-color: white;
   z-index: 999;
+  justify-content: space-between;
 }
 #photo{
 display: flex;
 flex-direction: none;
-margin: auto 20px;
+margin: auto 0px;
+transform: scale(1.2);
 }
 #n1{
   background-color: #FBB900;
@@ -40,8 +42,6 @@ margin: auto 7px;
 }
 #alln{
   display: flex;
-  margin-left: auto;
-  margin: 0px 40px;
 }
 #kryjki{
   display: flex;
@@ -115,7 +115,7 @@ margin: 50px 0px 0px 50px;
 }
 #th1{
   display: flex;
-  margin: 0px auto;
+  margin-bottom: 6px;
 } 
 
 #th1 h1{
@@ -334,11 +334,14 @@ margin: 50px 0px 0px 50px;
     position: fixed;
     background-color: white;
     z-index: 999;
+    justify-content: space-between;
+    align-items: center;
   }
   #photo{
   display: flex;
   flex-direction: none;
   margin: auto 20px;
+  transform: scale(1.2);
   }
   #n1{
     background-color: #FBB900;
@@ -363,8 +366,6 @@ margin: 50px 0px 0px 50px;
   }
   #alln{
     display: flex;
-    margin-left: auto;
-    margin: 0px 40px;
   }
   #kryjki{
     display: flex;
@@ -440,7 +441,9 @@ margin: 50px 0px 0px 50px;
   }
   #th1{
     display: flex;
-    margin: 0px auto;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 12px;
   } 
   
   #th1 h1{
