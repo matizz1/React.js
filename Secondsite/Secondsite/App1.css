@@ -1,0 +1,11 @@
+#all{
+    height: 1400px;
+    }
+    
+    #first{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    }
